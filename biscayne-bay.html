@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> South Florida Marine Areas: Open Ocean </title>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Vollkorn&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/bay.css">
+</head>
+
+<body>
+
+<header>
+<h1> South Florida Marine Areas </h1>
+<nav> <a href="index.html"> Home </a> </nav>
+
+</header>
+
+<section id="main">
+
+
+  <div id="pic-holder">
+<img id="coral" src="images/bay/bigbay.jpg" alt="slideshow of open ocean">
+<div>
+<button id="att" type="button"> Photo Sources</button>
+<p id="attribution"> Bay Area: <a href="https://commons.wikimedia.org/wiki/File:Boca_Chita_Miami_skyline_NPS1.jpg"> Judd Patterson, National Park Service, Public Domain, via Wikimedia Commons </a> <br> Crocodile: <a href="https://tinyurl.com/ybkkl394"> Richard </a> <br> Mangroves: <a href="https://tinyurl.com/y7j5jbo3"> Peyri Herrera </a> <br> Coral: <a href="https://commons.wikimedia.org/wiki/File:Biscayne_underwater_NPS1.jpg"> National Park Service, Public domain, via Wikimedia Commons </a> <br> License for non public domain photos: <a href="https://creativecommons.org/licenses/by-nd/2.0/"> CC-BY-ND 2.0 </a>
+</p>
+</div>
+</div>
+
+  <div id="text">
+    <h2> Biscayne Bay Marine Life </h2>
+  <p> Biscayne Bay is home to Biscayne National Park where incredible mangrove forests and coral reefs can be found. 95 percent of Biscayne Bay is water therefore the majority of life that can be found here is marine. Manatees, different species of turtles, corals, and sea stars find refuge in the bay. With over 500 varieties of fish living in this area, snorkeling and diving are popular activities. For those who may not want to get in the water, boat tours are also available. An interesting fact about Biscayne Bay is that the American Crocodile can be found here, which can grow up to 19 feet long! </p>
+  <p>Click the images below to discover more about the marine life that inhabits this area.</p>
+  <div id="sources">
+    <button id="source1" type="button">Sources</button>
+    <p id="source-text"> <a href="http://www.ohranger.com/biscayne/flora-fauna"> OhRanger: Biscayne National Park </a> <br> <a href="https://owlcation.com/stem/Whats-the-difference-between-alligators-and-crocodiles">Owlcation</a>
+  </div>
+  </div>
+
+
+</section>
+
+<div id="animals">
+<img data-modal-target1="#modal1" class="life" src="images/bay/manatee.jpg" alt="Photo of a manatee">
+<img data-modal-target2="#modal2" class="life" src="images/bay/star.jpg" alt="Photo of a sea star">
+<img data-modal-target3="#modal3" class="life" src="images/bay/snapper.jpg" alt="Photo of a mangrove snapper">
+
+</div>
+
+<div class="modal" id="modal1">
+  <div class="modal-header">
+    <div class="title">The Manatee</div>
+    <button data-close-button class="close-button">&times;</button>
+  </div>
+  <div class="modal-body">
+    <img id="pic-manatee" class="pic-modal" src="images/bay/manatee.jpg" alt="photo of a manatee">
+    <video id="video" preload="auto"> <source src="videos/manatee.mp4" type="video/mp4"> <source src="videos/manatee.webm" type="video/webm"> </video>
+      <p id="video-credits"> Video by: <a href="https://pixabay.com/videos/manatee-dugong-ocean-aquarium-sea-30365/"> Calean Kelly, via Pixabay </a> <br> Click the video to return to image. </p>
+    <p id="manatee-credits"> Photo by <a href="https://commons.wikimedia.org/wiki/File:Mother_manatee_and_calf.jpg"> Sam Farkas (NOAA Photo Library), Public domain, via Wikimedia Commons </a> </p>
+    <p> The manatee, also called a sea cow, is a slow-moving mammal that can found in various locations throughout Florida. Biscayne’s bay mangrove forests make a great habitat for these large vegetarian creatures. Under ideal environments manatees grow to an average of 10 feet long! An interesting fact about manatees is that during the winter they seek warmer waters and therefore can be often found near powerplant wastewater which tends to be warm.
+    <b> Click the picture above to see the manatee swim. </b></p>
+    <p> Read more: <a href="https://myfwc.com/conservation/you-conserve/wildlife/manatee/"> FWC </a>
+  </div>
+</div>
+<div class="overlay"></div>
+
+<div class="modal" id="modal2">
+  <div class="modal-header">
+    <div class="title"> The Star Fish</div>
+    <button data-close-button class="close-button">&times;</button>
+  </div>
+  <div class="modal-body">
+    <img id="star1" class="pic-modal" src="images/bay/star.jpg" alt="photo of a sea star">
+    <img id="star2" class="pic-modal" src="images/bay/bahamastar.jpg" alt="photo of a bahama seas star">
+    <img id="star3" class="pic-modal" src="images/bay/britlestar.jpg" alt="photo of a britle seas star">
+    <p id="credit-star1"> Photo by: <a href="https://tinyurl.com/y8gumnqr"> budak </a> used under <a href="https://creativecommons.org/licenses/by/2.0/"> CC-BY-ND 2.0 </a> </p>
+    <p id="credit-star2"> Bahama Star. Photo by: <a href="https://commons.wikimedia.org/wiki/File:Oreaster_Grahams_Harbour.jpg"> Jstuby at en.wikipedia, Public domain, via Wikimedia Commons </a> </p>
+    <p id="credit-star3"> Britle Star Photo by: <a href="https://commons.wikimedia.org/wiki/File:Brittle_starfish_in_kona.jpg"> Brocken Inaglory,  via Wikimedia Commons </a>  used under <a href="https://creativecommons.org/licenses/by-sa/3.0"> CC-BY-SA 3.0 </a></p>
+    <p id="modal-par">A variety of sea stars can be found inhabiting Biscayne bay. Despite also being referred to as star fish, sea stars are not fish. There are about 1,600 living species of sea stars spread across the world’s oceans. Biscayne bay is home to the Bahama Star and the Brittle Star.
+      <b> Click through the image above to view all three sea star species. </b>  </p>
+      <p> Read more: <a href="https://www.britannica.com/animal/sea-star"> Brittanica </a>
+  </div>
+</div>
+<div class="overlay"></div>
+
+<div class="modal" id="modal3">
+  <div class="modal-header">
+    <div class="title"> Mangrove Snapper </div>
+    <button data-close-button class="close-button">&times;</button>
+  </div>
+  <div class="modal-body">
+    <img class="pic-modal" src="images/bay/snapper.jpg" alt="photo of a mangrove snapper">
+    <p> Photo by: <a href="https://commons.wikimedia.org/wiki/File:Grey_snapper_-_Lutjanus_griseus.jpg"> Clinton & Charles Robertson from Del Rio, Texas & San Marcos, TX, USA, Via Wikimedia Commons </a> used under: <a href="https://creativecommons.org/licenses/by/2.0/"> CC-BY-ND 2.0 </a> </p>
+    <p>The mangrove snapper, also known as the gray snapper, can be commonly found in Biscayne Bay and in other tropical waters. Snappers are valuable and are regarded as being delicious fish, therefore fishing for snappers is not uncommon. Although there are about 105 species of snappers, the gray snapper is the most prevelant in Biscayne Bay. </p>
+  <p> Read more: <a href="https://www.britannica.com/animal/snapper"> Brittanica </a> </p>
+  </div>
+</div>
+<div class="overlay"></div>
+
+
+<footer>
+  <p id="thanks"> Page created by Cosimo Trotta.</p>
+  <p id="thanks2"> Special thanks to Trident N. for contributing marine life information. </p>
+  <nav id="footer-nav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="openocean.html">Open Ocean</a></li>
+    <li><a href="keywest.html">Key West</a></li>
+  </ul>
+</nav>
+</footer>
+
+
+<script src="js/bay.js"></script>
+</body>
+</html>

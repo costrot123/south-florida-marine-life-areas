@@ -1,0 +1,274 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+* {
+  box-sizing: inherit;
+}
+
+
+img {
+    max-width: 100%;
+    margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Vollkorn', 'palatino', 'Georgia', serif;
+}
+
+header {
+  padding: .5rem 2rem;
+  background: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+nav {
+  font-size: 1.7rem;
+}
+
+#attribution {
+  line-height: 1.3rem;
+}
+
+#main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3.5rem;
+  margin-top: 2rem;
+}
+
+#coral {
+  max-width: 100%;
+  border-style: solid;
+  border-color: #fff;
+}
+
+#pic-holder {
+  max-width: 600px;
+  margin: 0;
+}
+
+#text {
+  max-width: 550px;
+  margin-left: 1.5rem;
+  margin-top: 0;
+  padding: 0;
+  line-height: 1.25rem;
+  font-size: 1.1rem;
+}
+
+#animals {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.life {
+  max-width: 300px;
+  margin: .5rem;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #fff;
+}
+
+body {
+  background: #1ABC9C;
+  color: #000;
+  font-family: 'Heebo', 'Arial', sans-serif;
+  margin: 0;
+}
+
+#source1, #att {
+  cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    padding: 1rem;
+    color: #fff;
+    margin-top: 3.5rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+#footer-nav {
+  font-size: 1rem;
+}
+
+#thanks {
+  margin-bottom: 0;
+}
+
+#thanks2 {
+  margin-top: .2rem;
+}
+
+#sources {
+  margin-bottom: 1rem;
+}
+
+#source-text {
+  line-height: 1.5rem;
+}
+
+/* Modal: Tutorial from 'Web Dev Simplified' @ https://www.youtube.com/watch?v=MBaw_6cPmAw | code modified to fit project */
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 800px;
+  max-width: 80%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 10px 15px;
+}
+
+.overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+.pic-modal {
+  max-width: 65%;
+}
+
+#pic-manatee {
+  cursor: pointer;
+}
+
+video {
+  max-width: 75%;
+}
+
+  span {
+    display: block;
+    margin-top: .5rem;
+  }
+/* end of modal */
+
+section a {
+  color: #701E00;
+}
+
+header a {
+  text-decoration: none;
+  color: #02A9CF;
+}
+
+header a:hover {
+    color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #02A9CF;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1161px) {
+#pic-holder {
+  margin-bottom: 1rem;
+}
+}
+
+@media screen and (max-width: 620px) {
+#text {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#att {
+  margin-left: 1rem;
+}
+#attribution {
+  margin-left: 1rem;
+}
+
+#graph {
+  height: 300px;
+  width: 80%;
+}
+.modal {
+  max-width: 90%;
+}
+#modal2 {
+  max-width: 95%;
+}
+#sources {
+  margin-bottom: 1rem;
+}
+#pic-holder {
+  margin-bottom: 1rem;
+}
+}
