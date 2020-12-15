@@ -208,14 +208,10 @@ video {
   max-width: 75%;
 }
 
-  span {
-    display: block;
-    margin-top: .5rem;
-  }
 /* end of modal */
 
 section a {
-  color: #701E00;
+  color: #560101;
 }
 
 header a {

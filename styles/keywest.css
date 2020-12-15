@@ -201,6 +201,10 @@ video {
 
 /* end of modal */
 
+section a {
+  color: #300240;
+}
+
 header a {
   text-decoration: none;
   color: #02A9CF;
